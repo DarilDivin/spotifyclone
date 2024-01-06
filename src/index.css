@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+* ::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+    /* background: #303030; */
+}
+
+.bg-mask {
+    -webkit-mask-image: linear-gradient(90deg,transparent,#000 120px,#000 calc(100% - 120px),transparent);
+    mask-image: linear-gradient(90deg,transparent,#000 120px,#000 calc(100% - 120px),transparent);
+}
+
+.bg-mask-left {
+    -webkit-mask-image: linear-gradient(90deg,transparent,#000 120px);
+    mask-image: linear-gradient(90deg,transparent,#000 120px); 
+}
+
+.bg-mask-right {
+    -webkit-mask-image: linear-gradient(90deg,#000 calc(100% - 120px),transparent);
+    mask-image: linear-gradient(90deg,#000 calc(100% - 120px),transparent); 
+}
+
+
+/* linear-gradient(90deg,transparent,#000 120px)  --- Bon linear gradient --- Utiliser pour le coté gauche
+   linear-gradient(90deg,#000 calc(100% - 120px),transparent) --- Utiliser pour le coté droit */
