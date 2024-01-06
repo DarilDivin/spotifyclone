@@ -1,8 +1,11 @@
-# React + Vite
+# My React Spotify Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ceci est un projet d'entrainement à React pour apprendre nouvelles choses et me perfectionner dans React.
 
-Currently, two official plugins are available:
+Pour utiliser taper les commandes suivantes : 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+- git clone https://github.com/DarilDivin/spotifyclone.git
+
+- npm install
+```
