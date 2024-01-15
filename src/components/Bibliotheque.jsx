@@ -1,5 +1,5 @@
 import React from "react"
-import { NavbarItem, TagsLine, BiblioSearchLine } from "./subcomponents"
+import { NavbarItem, TagsLine, BiblioSearchLine, BiblioList } from "./subcomponents"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faListUl, faPlus, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
@@ -24,6 +24,9 @@ const Bibliotheque = () => {
             </div>
             <div>
                 <BiblioSearchLine />
+            </div>
+            <div>
+                <BiblioList />
             </div>
         </div>
     )
